@@ -1,0 +1,20 @@
+# Ignore the Virtual Environment
+venv/
+
+# Ignore Compiled/Build files
+build/
+dist/
+*.spec
+
+# Ignore the actual Executables (SAFETY FIRST)
+*.exe
+
+# Ignore the Test Zone (Don't upload the dummy files)
+Ransom_Test_Zone/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
